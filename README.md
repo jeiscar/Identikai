@@ -1,4 +1,5 @@
-# IDENTIKAI (Demo)
+# IDENTIKAI (Demo) 
+https://www.figma.com/proto/ydYHlG96IBprka50rELSuc/Sin-t%C3%ADtulo?node-id=1-493&t=rnmk82krtZXJlF6E-1&starting-point-node-id=1%3A493
 Aplicativo web *responsivo* (Flask + HTML/CSS/JS) que simula un flujo de **registro/validación facial** para marcar asistencia.  
 No realiza reconocimiento biométrico real; guarda una captura y registra la asistencia en SQLite.
 
@@ -48,3 +49,5 @@ http://127.0.0.1:5000
 Las capturas se guardan en `uploads/` y se registra un evento en `identikai.db` (tabla `attendance`).
 
 > Para un reconocimiento real, conecta `/api/verify` con un servicio de verificación facial (por ejemplo, un modelo ONNX/TensorFlow, o un proveedor externo) y almacena una plantilla biométrica cumpliendo normatividad de datos personales.
+
+
